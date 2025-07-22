@@ -1,0 +1,160 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #111;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-radius: 0;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #000;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+}
+
+.btn-success {
+    background-color: #00754a;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #005c3d;
+}
+
+.btn-info {
+    background-color: #555;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #333;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #b00610;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    background-color: #f7f7f7;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.01);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea, select {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.table {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.alert-danger {
+    font-weight: 600;
+    color: #b00610;
+    background-color: #ffe6e6;
+}
+
+.btn-lg {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.text-muted {
+    font-size: 18px;
+    color: #555 !important;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.btn {
+    border-radius: 8px !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.product-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
